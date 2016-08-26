@@ -7,7 +7,7 @@ import javafx.scene.Parent;
 import java.io.IOException;
 
 /**
- * Created by john on 8/26/2016.
+ * Created by enoch3712. doesnt matter the date
  */
 public class StaticView {
     public static Parent generatePane(Class app) {

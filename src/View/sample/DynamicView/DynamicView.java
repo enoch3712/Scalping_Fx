@@ -4,7 +4,7 @@ import javafx.scene.Parent;
 import javafx.scene.control.ScrollPane;
 
 /**
- * Created by john on 8/26/2016.
+ * Created by enoch3712. doesnt matter the date
  */
 public class DynamicView
 {

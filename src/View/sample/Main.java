@@ -10,12 +10,11 @@ import View.sample.*;
 public class Main extends Application {
 
     private static boolean IS_STATIC = false;
-
+    private Parent View;
     @Override
     public void start(Stage primaryStage) throws Exception
     {
-        //Parent root = FXMLLoader.load(getClass().getResource("StaticView/sample.fxml"));
-        Parent root = IS_STATIC? DynamicView.generatePane(): StaticView.generatePane(this.getClass());
+        View = IS_STATIC ? StaticView.generatePane(this.getClass(),primaryStage):DynamicView.generatePane(primaryStage);
     }
 
     public static void main(String[] args) {
